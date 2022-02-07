@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.25px solid red; */
+}
+
+/* global styles*/
+
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif; */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 3rem;
+    line-height: 60px;
+    color: #0c3e5eff;
+    margin-bottom: 0.6rem;
+}
+
+.container {
+    margin: 2rem 4rem;
+}
+
+.standard {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:#155b87ff;
+    letter-spacing: .1rem;
+    
+}
+
+.light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 44px;
+    font-size: 2rem;
+    color: #607d8b;
+    
+}
+
+/* Hero section plus navbar*/
+
+#hero {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.hero__section {
+    height: 100vh;
+    width: 50vw;
+}
+
+.hero__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__navlist {
+    display: flex;
+}
+.hero__navitem a{
+    padding: 0 2rem 0 0;
+    color: #74bbe8ff;
+}
+
+.hero__navitem a:hover{
+    color: #0c3e5eff;
+}
+
+.hero__navlogo {
+    width: 120px;
+    height: 120px;
+}
+
+.hero__left {
+    padding: 0 2rem 0 4rem;
+    background-color: #F8FCFF;
+}
+
+.hero__title{
+    margin: 1rem 0 4rem;
+}
+
+.hero__footer {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 1rem;
+    width: 40%;
+}
+
+.hero__icons {
+    text-align: right;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+
+.hero__icons a {
+    color: #74bbe8ff;
+}
+.hero__icons a:hover {
+    color: #0c3e5eff;
+}
+
+.fab {
+    padding-left: 20px;
+}
+
+
+.hero__right {
+    background: url(images/IBDW1160-original.jpeg) center center/cover no-repeat;
+}
+
+/* About section */
+.about__title, .projects__title {
+    font-size: 2rem;
+    text-align: center;
+    color: #97d1f4ff;
+    margin-bottom: 2rem;
+}
+
+/* projects section */
+#projects {
+    background-color: #F8FCFF;
+}
+
+
+
+
+/* CSS HEX */
+/* --indigo-dye: #0c3e5eff;
+--lapis-lazuli: #155b87ff;
+--green-blue-crayola: #2d92d1ff;
+--aero: #74bbe8ff;
+--light-cornflower-blue: ;
+--castleton-green: #0c5e50ff;
+--generic-viridian: #158774ff;
+--turquoise: #2ed1b5ff;
+--turquoise-2: #74e8d4ff;
+--middle-blue-green: #97f4e5ff; */
