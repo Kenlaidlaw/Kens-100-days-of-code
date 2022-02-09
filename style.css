@@ -147,7 +147,7 @@ h1 {
 
 .card__img {
     width: 100%;
-    height: auto;
+    height: 40%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -172,8 +172,12 @@ h1 {
     color:#155b87ff;
 }
 
+/* .card__content {
+    height: 40%;
+} */
+
 .btn__category {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     border-radius: 25px;
 }
 
@@ -194,23 +198,47 @@ h1 {
 
 .card__footer {
     display: flex;
-    justify-content: space-around;
+    
 }
 
 .card__footer--link1 {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     border-radius: 25px;
     color: #fff;
     background-color: crimson;
+    margin-right: 25px;
+    
 }
 
 .card__footer--link2 {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     border-radius: 25px;
     color: crimson;
     border: 1px solid crimson;
 }
 
+/* actualfooter */
+#footer {
+    background-color: #74bbe8ff;
+   }
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.footer__icons {
+    font-size: 1.5rem;
+}
+
+.footer__icons a {
+    color: #fff;
+    padding: 0 10px;
+}
+.footer__icons a:hover {
+    color: #0c3e5eff;
+}
 
 
 
