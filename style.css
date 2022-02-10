@@ -259,6 +259,9 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+    .container {
+        padding: 1rem 1rem;
+    }
     #hero {
         flex-direction: column;
     }
@@ -326,6 +329,10 @@ h1 {
 }
 
 @media (max-width: 640px) {
+    .container {
+        padding: 1rem 0;
+    }
+
     .hero__navbar {
         flex-direction: column-reverse;
     }
