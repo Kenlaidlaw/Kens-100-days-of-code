@@ -199,6 +199,11 @@ h1 {
     background-color: purple;
 }
 
+.general {
+    color: #fff;
+    background-color: #0c3e5eff;
+}
+
 .card__footer {
     display: flex; 
     height: 50px;
